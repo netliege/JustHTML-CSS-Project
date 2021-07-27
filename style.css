@@ -1,0 +1,135 @@
+table tr td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+th {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+#img {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#f {
+  border: 2px solid steelblue;
+  border-radius: 5px;
+}
+
+body {
+  width: fit-content;
+  height: fit-content;
+  margin: 3rem auto;
+  padding: 0;
+  background-color: rgb(161, 213, 226);
+  font-size: 16#px;
+}
+
+.prompt {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.answer {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4 1fr);
+  width: 550px;
+  height: 550px;
+}
+
+.grid-items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 187, 187);
+}
+
+#box1,
+#box3 {
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#box1,
+#box3,
+#box5,
+#box7,
+#box13,
+#box15 {
+  border-right: 1px solid gray;
+}
+#box10,
+#box11,
+#box16 {
+  border-top: 1px solid gray;
+}
+#box2,
+#box4 {
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#box5 {
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#box6 {
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+#box7 {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+}
+#box8 {
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#box9 {
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#box10,
+#box11 {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#box12 {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+#box13,
+#box15 {
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+#box14 {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+#box16 {
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
